@@ -58,6 +58,22 @@ rg --files skills | rg 'SKILL\.md|use-x-chat|x-request'
 find . -maxdepth 2 -type d | sort
 ```
 
+## 引入 superpowers
+
+本仓库通过 Git submodule 引入 `superpowers/`。
+
+首次克隆后初始化子模块：
+
+```bash
+git submodule update --init --recursive
+```
+
+如果需要单独拉取 `superpowers` 的上游更新：
+
+```bash
+git submodule update --remote superpowers
+```
+
 ## 关于 superpowers/
 
 `superpowers/` 不是本仓库的主要维护对象。只有在以下场景才需要进入该目录：
