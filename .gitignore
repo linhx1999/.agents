@@ -1,6 +1,6 @@
 .codex
 /skills/.system
 /skills/.qoder
-/skills/superpowers
+# /skills/superpowers
 skills/**/__pycache__/
 skills/**/*.pyc
