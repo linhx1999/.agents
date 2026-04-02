@@ -4,12 +4,13 @@
 
 This repository is centered on `skills/`. Each skill lives in `skills/<skill-name>/` and should treat `SKILL.md` as the canonical entrypoint. Keep supporting material close to the skill: use `scripts/` for helpers, `references/` for source material, and `assets/` for reusable templates or media. System-level packaged skills live under `skills/.system/`. The `superpowers/` directory is an upstream repository referenced here for integration and test harnesses; do not treat it as the primary place for new contribution work unless a change explicitly targets that dependency.
 
-## 文档更新政策
-**关键：每次代码更改后必须更新 README.md 和 AGENTS.md**
+## Documentation Update Policy
 
-- 面向用户的更改（功能、设置、使用说明）→ 更新 `README.md`
-- 开发相关的更改（架构、命令、工作流、内部系统）→ 更新 `AGENTS.md`
-- 必须确保文档与代码库同步
+Keep documentation in sync with the repository after every meaningful change.
+
+- Update `README.md` for user-facing changes such as features, setup steps, or usage instructions.
+- Update `AGENTS.md` for contributor-facing changes such as architecture, commands, workflows, or internal conventions.
+- If a change affects both audiences, update both files in the same patch.
 
 ## Build, Test, and Development Commands
 
