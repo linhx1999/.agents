@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "skills": {
+    "golang-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/golang-pro/SKILL.md",
+      "skillFolderHash": "21c16cca0eaf425259a5aebc2de99ee64807b500",
+      "installedAt": "2026-03-03T08:25:16.961Z",
+      "updatedAt": "2026-03-23T01:03:25.076Z"
+    },
+    "mcp-builder": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/mcp-builder/SKILL.md",
+      "skillFolderHash": "9173e2c2107aac82d4ca6c726d71e89d11760470",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-05T02:00:01.871Z",
+      "updatedAt": "2026-03-23T01:05:45.270Z"
+    },
+    "pptx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pptx/SKILL.md",
+      "skillFolderHash": "10b3d70962e489867ddfee7da92f7da6b0eccc4f",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-05T02:11:34.880Z",
+      "updatedAt": "2026-03-05T02:11:34.880Z"
+    },
+    "ant-design": {
+      "source": "ant-design/antd-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/ant-design/antd-skill.git",
+      "skillPath": "skills/ant-design/SKILL.md",
+      "skillFolderHash": "c394255f79d1c6dbc37adc797c4698f672eac67f",
+      "installedAt": "2026-03-05T02:13:35.640Z",
+      "updatedAt": "2026-03-05T02:13:35.640Z"
+    },
+    "use-x-chat": {
+      "source": "ant-design/x",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/ant-design/x.git",
+      "skillPath": "packages/x-skill/skills-zh/use-x-chat/SKILL.md",
+      "skillFolderHash": "314a613a02eb51af5857d9da51e775834b0cdac0",
+      "installedAt": "2026-03-05T02:16:54.796Z",
+      "updatedAt": "2026-03-23T01:03:32.347Z"
+    },
+    "x-chat-provider": {
+      "source": "ant-design/x",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/ant-design/x.git",
+      "skillPath": "packages/x-skill/skills-zh/x-chat-provider/SKILL.md",
+      "skillFolderHash": "819aca0e19cf1a6f3f00f2f89fe876af05b16d87",
+      "installedAt": "2026-03-05T02:17:13.498Z",
+      "updatedAt": "2026-03-23T01:03:37.065Z"
+    },
+    "x-request": {
+      "source": "ant-design/x",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/ant-design/x.git",
+      "skillPath": "packages/x-skill/skills-zh/x-request/SKILL.md",
+      "skillFolderHash": "522dbb762aff1038aa492c685908b47c03560a6f",
+      "installedAt": "2026-03-05T02:17:29.728Z",
+      "updatedAt": "2026-03-23T01:03:41.533Z"
+    },
+    "seaborn": {
+      "source": "davila7/claude-code-templates",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/davila7/claude-code-templates.git",
+      "skillPath": "cli-tool/components/skills/scientific/seaborn/SKILL.md",
+      "skillFolderHash": "576f6a6507edd9fcc3714c83e9a295279c62a6e5",
+      "installedAt": "2026-03-11T01:19:13.185Z",
+      "updatedAt": "2026-03-11T01:19:13.185Z"
+    },
+    "brainstorming": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "skillFolderHash": "2934541ea5541995c4a8eed5b4bda3cba4d24e85",
+      "installedAt": "2026-03-22T05:16:32.420Z",
+      "updatedAt": "2026-03-22T05:16:32.420Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-03-23T01:01:43.758Z",
+      "updatedAt": "2026-03-23T01:01:43.758Z"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "69bf4a7eeeaa772290c1c5efd19da0865f903af8",
+      "installedAt": "2026-03-23T01:08:49.913Z",
+      "updatedAt": "2026-03-23T01:08:49.913Z"
+    },
+    "using-superpowers": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/using-superpowers/SKILL.md",
+      "skillFolderHash": "53bdaa7bc95ff9bebdfdde4093a2b7ef34f54c15",
+      "installedAt": "2026-03-31T07:33:12.003Z",
+      "updatedAt": "2026-03-31T07:33:12.003Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp"
+  ]
+}
