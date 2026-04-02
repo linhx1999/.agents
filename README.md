@@ -5,9 +5,28 @@
 ## 目录导航
 
 - `skills/`：主要技能存储区。
-- `skills/.system/`：系统级技能。
 - `AGENTS.md`：贡献与协作约定。
 - `superpowers/`：上游引用目录，用于参考结构、文档和测试脚本。
+
+## 技能索引
+
+- `ant-design`：用于 Ant Design、ProComponents 和 Ant Design X 的组件选型与实现决策。
+- `brainstorming`：用于在动手前澄清需求、比较方案并形成设计。
+- `commit`：用于整理改动、拆分提交并生成规范的 Git 提交信息。
+- `docx`：用于创建、编辑、分析和批注 `.docx` 文档。
+- `find-skills`：用于查找、筛选和安装可用的 agent skills。
+- `golang-pro`：用于 Go 并发、微服务、性能优化和工程化实现。
+- `mcp-builder`：用于设计和实现高质量 MCP 服务端。
+- `pdf`：用于提取、生成、拆分、合并和填写 PDF。
+- `pptx`：用于处理演示文稿的创建、编辑、解析和拆分合并。
+- `seaborn`：用于统计图表、探索性分析和出版级可视化。
+- `skill-creator`：用于创建新 skill 或完善已有 skill。
+- `template-skill`：用于新技能的占位模板和结构起点。
+- `use-x-chat`：用于讲解和实现 Ant Design X 的 `useXChat` 用法。
+- `vercel-react-best-practices`：用于 React 和 Next.js 的性能优化与最佳实践对照。
+- `x-chat-provider`：用于将自定义流式接口适配为 Ant Design X Chat Provider。
+- `x-request`：用于配置和使用 Ant Design X 的 `XRequest`。
+- `xlsx`：用于创建、修改、分析和重算电子表格文件。
 
 ## skills/ 组织方式
 
