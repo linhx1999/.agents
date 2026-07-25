@@ -10,13 +10,14 @@
 ## 技能索引
 
 - `ant-design`：用于 Ant Design、ProComponents 和 Ant Design X 的组件选型与实现决策。
+- `commit-work`：用于审查改动、拆分提交并生成规范的 Git 提交信息。
 - `csv`：用于通过 Bash 工具分析和转换 CSV 数据。
 - `docx`：用于创建、编辑、分析和批注 `.docx` 文档。
 - `excel-automation`：用于自动化处理 Excel 工作簿。
 - `figedit`：用于将位图图示重建为可编辑 SVG 和 PowerPoint。
 - `find-skills`：用于查找、筛选和安装可用的 agent skills。
 - `frontend-design`：用于设计和改进具有明确视觉风格的前端界面。
-- `commit-work`：用于审查改动、拆分提交并生成规范的 Git 提交信息。
+- `grill-me`：用于通过持续追问打磨计划或设计。
 - `golang-pro`：用于 Go 并发、微服务、性能优化和工程化实现。
 - `mcp-builder`：用于设计和实现高质量 MCP 服务端。
 - `paddleocr-doc-parsing`：用于解析复杂 PDF 和文档图像的结构、表格及公式。
@@ -25,6 +26,7 @@
 - `seaborn`：用于统计图表、探索性分析和出版级可视化。
 - `skill-creator`：用于创建新 skill 或完善已有 skill。
 - `template-skill`：用于新技能的占位模板和结构起点。
+- `ui-ux-pro-max`：用于检索 UI/UX 风格、配色、字体、交互与技术栈指南。
 - `use-x-chat`：用于讲解和实现 Ant Design X 的 `useXChat` 用法。
 - `vercel-react-best-practices`：用于 React 和 Next.js 的性能优化与最佳实践对照。
 - `x-chat-provider`：用于将自定义流式接口适配为 Ant Design X Chat Provider。
