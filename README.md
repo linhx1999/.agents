@@ -17,7 +17,7 @@
 - `figedit`：用于将位图图示重建为可编辑 SVG 和 PowerPoint。
 - `find-skills`：用于查找、筛选和安装可用的 agent skills。
 - `frontend-design`：用于设计和改进具有明确视觉风格的前端界面。
-- `grill-me`：用于通过持续追问打磨计划或设计。
+- `grilling`：用于通过逐项追问检验计划、决策或想法。
 - `golang-pro`：用于 Go 并发、微服务、性能优化和工程化实现。
 - `mcp-builder`：用于设计和实现高质量 MCP 服务端。
 - `paddleocr-doc-parsing`：用于解析复杂 PDF 和文档图像的结构、表格及公式。
