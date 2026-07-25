@@ -91,15 +91,6 @@
       "installedAt": "2026-03-23T01:08:49.913Z",
       "updatedAt": "2026-07-25T07:11:20.245Z"
     },
-    "git-commit": {
-      "source": "github/awesome-copilot",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/github/awesome-copilot.git",
-      "skillPath": "skills/git-commit/SKILL.md",
-      "skillFolderHash": "883a6a7466f55a9cd9f22cf1cce2d9333fc9b998",
-      "installedAt": "2026-05-27T17:08:18.918Z",
-      "updatedAt": "2026-05-27T17:08:18.918Z"
-    },
     "csv": {
       "source": "vercel-labs/bash-tool",
       "sourceType": "github",
@@ -145,6 +136,15 @@
       "pluginName": "example-skills",
       "installedAt": "2026-07-25T07:14:18.582Z",
       "updatedAt": "2026-07-25T07:14:18.582Z"
+    },
+    "commit-work": {
+      "source": "softaworks/agent-toolkit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/softaworks/agent-toolkit.git",
+      "skillPath": "skills/commit-work/SKILL.md",
+      "skillFolderHash": "ac7c2ea0f24eb668f5b80e4f237efa4a90f12312",
+      "installedAt": "2026-07-25T07:24:53.849Z",
+      "updatedAt": "2026-07-25T07:24:53.849Z"
     }
   },
   "dismissed": {
