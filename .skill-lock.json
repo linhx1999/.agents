@@ -6,65 +6,63 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
       "skillPath": "skills/golang-pro/SKILL.md",
-      "skillFolderHash": "21c16cca0eaf425259a5aebc2de99ee64807b500",
+      "skillFolderHash": "e347d9842958ce46d5f0644ef6009304d648a964",
       "installedAt": "2026-03-03T08:25:16.961Z",
-      "updatedAt": "2026-03-23T01:03:25.076Z"
+      "updatedAt": "2026-07-25T07:09:57.703Z"
     },
     "mcp-builder": {
       "source": "anthropics/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/anthropics/skills.git",
       "skillPath": "skills/mcp-builder/SKILL.md",
-      "skillFolderHash": "9173e2c2107aac82d4ca6c726d71e89d11760470",
-      "pluginName": "example-skills",
+      "skillFolderHash": "b866bcfb57b780c10b587c7b543e871a91661ce0",
       "installedAt": "2026-03-05T02:00:01.871Z",
-      "updatedAt": "2026-03-23T01:05:45.270Z"
+      "updatedAt": "2026-07-25T07:10:21.017Z"
     },
     "pptx": {
       "source": "anthropics/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/anthropics/skills.git",
       "skillPath": "skills/pptx/SKILL.md",
-      "skillFolderHash": "10b3d70962e489867ddfee7da92f7da6b0eccc4f",
-      "pluginName": "document-skills",
+      "skillFolderHash": "64529c8b3f35fe632b7256bd2f6d46e4b40160ce",
       "installedAt": "2026-03-05T02:11:34.880Z",
-      "updatedAt": "2026-03-05T02:11:34.880Z"
+      "updatedAt": "2026-07-25T07:10:32.248Z"
     },
     "ant-design": {
       "source": "ant-design/antd-skill",
       "sourceType": "github",
       "sourceUrl": "https://github.com/ant-design/antd-skill.git",
       "skillPath": "skills/ant-design/SKILL.md",
-      "skillFolderHash": "c394255f79d1c6dbc37adc797c4698f672eac67f",
+      "skillFolderHash": "305bc1a517b390ab677ff75c8d842cc7a93c64d7",
       "installedAt": "2026-03-05T02:13:35.640Z",
-      "updatedAt": "2026-03-05T02:13:35.640Z"
+      "updatedAt": "2026-07-25T07:10:35.178Z"
     },
     "use-x-chat": {
       "source": "ant-design/x",
       "sourceType": "github",
       "sourceUrl": "https://github.com/ant-design/x.git",
       "skillPath": "packages/x-skill/skills-zh/use-x-chat/SKILL.md",
-      "skillFolderHash": "314a613a02eb51af5857d9da51e775834b0cdac0",
+      "skillFolderHash": "3efa0d7c063c51237d1c8d5856cb5b251390529f",
       "installedAt": "2026-03-05T02:16:54.796Z",
-      "updatedAt": "2026-03-23T01:03:32.347Z"
+      "updatedAt": "2026-07-25T07:10:43.885Z"
     },
     "x-chat-provider": {
       "source": "ant-design/x",
       "sourceType": "github",
       "sourceUrl": "https://github.com/ant-design/x.git",
       "skillPath": "packages/x-skill/skills-zh/x-chat-provider/SKILL.md",
-      "skillFolderHash": "819aca0e19cf1a6f3f00f2f89fe876af05b16d87",
+      "skillFolderHash": "3d90544cb002844c8b5b575e404f2f82c53fda7b",
       "installedAt": "2026-03-05T02:17:13.498Z",
-      "updatedAt": "2026-03-23T01:03:37.065Z"
+      "updatedAt": "2026-07-25T07:10:55.086Z"
     },
     "x-request": {
       "source": "ant-design/x",
       "sourceType": "github",
       "sourceUrl": "https://github.com/ant-design/x.git",
       "skillPath": "packages/x-skill/skills-zh/x-request/SKILL.md",
-      "skillFolderHash": "522dbb762aff1038aa492c685908b47c03560a6f",
+      "skillFolderHash": "8711f1b8f891d55b854da518a6e1fde4eecdc345",
       "installedAt": "2026-03-05T02:17:29.728Z",
-      "updatedAt": "2026-03-23T01:03:41.533Z"
+      "updatedAt": "2026-07-25T07:11:03.836Z"
     },
     "seaborn": {
       "source": "davila7/claude-code-templates",
@@ -75,41 +73,78 @@
       "installedAt": "2026-03-11T01:19:13.185Z",
       "updatedAt": "2026-03-11T01:19:13.185Z"
     },
-    "brainstorming": {
-      "source": "obra/superpowers",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/obra/superpowers.git",
-      "skillPath": "skills/brainstorming/SKILL.md",
-      "skillFolderHash": "2934541ea5541995c4a8eed5b4bda3cba4d24e85",
-      "installedAt": "2026-03-22T05:16:32.420Z",
-      "updatedAt": "2026-03-22T05:16:32.420Z"
-    },
     "find-skills": {
       "source": "vercel-labs/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/skills.git",
       "skillPath": "skills/find-skills/SKILL.md",
-      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
       "installedAt": "2026-03-23T01:01:43.758Z",
-      "updatedAt": "2026-03-23T01:01:43.758Z"
+      "updatedAt": "2026-07-25T07:11:13.946Z"
     },
     "vercel-react-best-practices": {
       "source": "vercel-labs/agent-skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
       "skillPath": "skills/react-best-practices/SKILL.md",
-      "skillFolderHash": "69bf4a7eeeaa772290c1c5efd19da0865f903af8",
+      "skillFolderHash": "343db72180d05814949fef7d46be96b5c6ee86b3",
       "installedAt": "2026-03-23T01:08:49.913Z",
-      "updatedAt": "2026-03-23T01:08:49.913Z"
+      "updatedAt": "2026-07-25T07:11:20.245Z"
     },
-    "using-superpowers": {
-      "source": "obra/superpowers",
+    "git-commit": {
+      "source": "github/awesome-copilot",
       "sourceType": "github",
-      "sourceUrl": "https://github.com/obra/superpowers.git",
-      "skillPath": "skills/using-superpowers/SKILL.md",
-      "skillFolderHash": "53bdaa7bc95ff9bebdfdde4093a2b7ef34f54c15",
-      "installedAt": "2026-03-31T07:33:12.003Z",
-      "updatedAt": "2026-03-31T07:33:12.003Z"
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/git-commit/SKILL.md",
+      "skillFolderHash": "883a6a7466f55a9cd9f22cf1cce2d9333fc9b998",
+      "installedAt": "2026-05-27T17:08:18.918Z",
+      "updatedAt": "2026-05-27T17:08:18.918Z"
+    },
+    "csv": {
+      "source": "vercel-labs/bash-tool",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/bash-tool.git",
+      "skillPath": "examples/skills-tool/skills/csv/SKILL.md",
+      "skillFolderHash": "b169d541c875ffaa8805b131a3adcb88f891e3d7",
+      "installedAt": "2026-05-30T11:59:33.260Z",
+      "updatedAt": "2026-05-30T11:59:33.260Z"
+    },
+    "excel-automation": {
+      "source": "claude-office-skills/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/claude-office-skills/skills.git",
+      "skillPath": "excel-automation/SKILL.md",
+      "skillFolderHash": "6b782ba55a18abcb612a0b1ae06a5b970be57a2e",
+      "installedAt": "2026-05-30T12:03:39.939Z",
+      "updatedAt": "2026-05-30T12:03:39.939Z"
+    },
+    "paddleocr-doc-parsing": {
+      "source": "PaddlePaddle/PaddleOCR",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/PaddlePaddle/PaddleOCR.git",
+      "skillPath": "skills/paddleocr-doc-parsing/SKILL.md",
+      "skillFolderHash": "d6ea0f57743b4a7123248e6dbbcfaf67519ee0ad",
+      "installedAt": "2026-07-18T10:08:42.420Z",
+      "updatedAt": "2026-07-18T10:09:15.538Z"
+    },
+    "figedit": {
+      "source": "giszzt/figedit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/giszzt/figedit.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "0a4289dcb171830dc12456393ff88eb66bc919b5",
+      "installedAt": "2026-07-25T07:05:34.702Z",
+      "updatedAt": "2026-07-25T07:05:34.702Z"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "0d5b74a14bdf3ebcd64f352d06376a2ef05ed296",
+      "pluginName": "example-skills",
+      "installedAt": "2026-07-25T07:14:18.582Z",
+      "updatedAt": "2026-07-25T07:14:18.582Z"
     }
   },
   "dismissed": {
@@ -118,14 +153,16 @@
   "lastSelectedAgents": [
     "amp",
     "antigravity",
+    "antigravity-cli",
     "cline",
     "codex",
     "cursor",
     "deepagents",
     "gemini-cli",
     "github-copilot",
-    "kimi-cli",
+    "kimi-code-cli",
     "opencode",
-    "warp"
+    "warp",
+    "zed"
   ]
 }
