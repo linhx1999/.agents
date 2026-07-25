@@ -1,22 +1,25 @@
 # 技能仓库说明
 
-这个仓库主要用于存储、整理和快速查找个人维护的技能内容，核心目录是 `skills/`。这里不是以功能开发为目标的主项目仓库；`superpowers/` 只是引用进来的上游内容，主要用于参考、对照和测试入口查看。
+这个仓库主要用于存储、整理和快速查找个人维护的技能内容，核心目录是 `skills/`。这里不是以功能开发为目标的主项目仓库。
 
 ## 目录导航
 
 - `skills/`：主要技能存储区。
 - `AGENTS.md`：贡献与协作约定。
-- `superpowers/`：上游引用目录，用于参考结构、文档和测试脚本。
 
 ## 技能索引
 
 - `ant-design`：用于 Ant Design、ProComponents 和 Ant Design X 的组件选型与实现决策。
-- `brainstorming`：用于在动手前澄清需求、比较方案并形成设计。
-- `commit`：用于整理改动、拆分提交并生成规范的 Git 提交信息。
+- `csv`：用于通过 Bash 工具分析和转换 CSV 数据。
 - `docx`：用于创建、编辑、分析和批注 `.docx` 文档。
+- `excel-automation`：用于自动化处理 Excel 工作簿。
+- `figedit`：用于将位图图示重建为可编辑 SVG 和 PowerPoint。
 - `find-skills`：用于查找、筛选和安装可用的 agent skills。
+- `frontend-design`：用于设计和改进具有明确视觉风格的前端界面。
+- `git-commit`：用于整理改动、拆分提交并生成规范的 Git 提交信息。
 - `golang-pro`：用于 Go 并发、微服务、性能优化和工程化实现。
 - `mcp-builder`：用于设计和实现高质量 MCP 服务端。
+- `paddleocr-doc-parsing`：用于解析复杂 PDF 和文档图像的结构、表格及公式。
 - `pdf`：用于提取、生成、拆分、合并和填写 PDF。
 - `pptx`：用于处理演示文稿的创建、编辑、解析和拆分合并。
 - `seaborn`：用于统计图表、探索性分析和出版级可视化。
@@ -57,29 +60,3 @@ rg --files skills | rg 'SKILL\.md|use-x-chat|x-request'
 ```bash
 find . -maxdepth 2 -type d | sort
 ```
-
-## 引入 superpowers
-
-本仓库通过 Git submodule 引入 `superpowers/`。
-
-首次克隆后初始化子模块：
-
-```bash
-git submodule update --init --recursive
-```
-
-如果需要单独拉取 `superpowers` 的上游更新：
-
-```bash
-git submodule update --remote superpowers
-```
-
-## 关于 superpowers/
-
-`superpowers/` 不是本仓库的主要维护对象。只有在以下场景才需要进入该目录：
-
-- 对照上游技能或文档写法
-- 查找现成测试入口
-- 验证与上游引用内容的对应关系
-
-如果只是日常存放、查找或整理技能，优先停留在 `skills/` 即可。
