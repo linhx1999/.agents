@@ -23,6 +23,7 @@
 - `paddleocr-doc-parsing`：用于解析复杂 PDF 和文档图像的结构、表格及公式。
 - `pdf`：用于提取、生成、拆分、合并和填写 PDF。
 - `pptx`：用于处理演示文稿的创建、编辑、解析和拆分合并。
+- `research-paper-writing`：用于提升 ML/CV/NLP 类论文的写作质量、结构与审稿友好度。
 - `seaborn`：用于统计图表、探索性分析和出版级可视化。
 - `skill-creator`：用于创建新 skill 或完善已有 skill。
 - `template-skill`：用于新技能的占位模板和结构起点。
