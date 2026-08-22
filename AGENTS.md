@@ -4,13 +4,17 @@
 
 This repository is centered on `skills/`. Each skill lives in `skills/<skill-name>/` and should treat `SKILL.md` as the canonical entrypoint. Keep supporting material close to the skill: use `scripts/` for helpers, `references/` for source material, and `assets/` for reusable templates or media. System-level packaged skills live under `skills/.system/`.
 
+Skills intended for manual invocation only (alias entrypoints, workflow orchestrators such as `grill-me` or `implement`) declare `disable-model-invocation: true` in their front matter.
+
 ## Documentation Update Policy
 
 Keep documentation in sync with the repository after every meaningful change.
 
-- Update `README.md` for user-facing changes such as features, setup steps, or usage instructions.
+- Update `README.md` for user-facing changes such as features, setup steps, or usage instructions. When adding or removing a skill, keep its skill index in sync.
 - Update `AGENTS.md` for contributor-facing changes such as architecture, commands, workflows, or internal conventions.
 - If a change affects both audiences, update both files in the same patch.
+
+`CLAUDE.md` is a symlink to `AGENTS.md`; edit `AGENTS.md` only.
 
 ## Build, Test, and Development Commands
 
