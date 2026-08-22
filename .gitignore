@@ -1,6 +1,22 @@
+# CodeBuddy / editor private data
+.codebuddy/
 .codex
+.vscode/
+.idea/
+
+# Skill-level non-published directories
 /skills/.system
 /skills/.qoder
 # /skills/superpowers
-skills/**/__pycache__/
-skills/**/*.pyc
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
