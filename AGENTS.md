@@ -1,35 +1,53 @@
 # Repository Guidelines
 
-## Project Structure & Module Organization
+## Scope
 
-This repository is centered on `skills/`. Each skill lives in `skills/<skill-name>/` and should treat `SKILL.md` as the canonical entrypoint. Keep supporting material close to the skill: use `scripts/` for helpers, `references/` for source material, and `assets/` for reusable templates or media. System-level packaged skills live under `skills/.system/`.
+This repository maintains reusable agent skills. Skill sources live in `skills/`; each `skills/<skill-name>/SKILL.md` is that skill's canonical entrypoint. Packaged platform skills live in `skills/.system/` and are maintained separately from the personal skill catalog.
 
-Skills intended for manual invocation only (alias entrypoints, workflow orchestrators such as `grill-me` or `implement`) declare `disable-model-invocation: true` in their front matter.
+Read `README.md` when adding, removing, or renaming a skill; its catalog is the user-facing index that must match the top-level skill directories.
 
-## Documentation Update Policy
+## Skill Layout
 
-Keep documentation in sync with the repository after every meaningful change.
+Keep each skill self-contained:
 
-- Update `README.md` for user-facing changes such as features, setup steps, or usage instructions. When adding or removing a skill, keep its skill index in sync.
-- Update `AGENTS.md` for contributor-facing changes such as architecture, commands, workflows, or internal conventions.
-- If a change affects both audiences, update both files in the same patch.
+- `SKILL.md`: YAML front matter and executable instructions.
+- `scripts/`: deterministic helpers.
+- `references/`: material loaded only for the branches named by pointers in `SKILL.md`.
+- `assets/`: reusable templates or media.
+- `agents/`: agent-specific integration metadata.
 
-`CLAUDE.md` is a symlink to `AGENTS.md`; edit `AGENTS.md` only.
+Use only the directories a skill needs. Put shared behavior in one canonical location and point to it instead of copying instructions between files.
 
-## Build, Test, and Development Commands
+## Writing Skills
 
-There is no single repository-wide build step. Work at the skill level and validate only the relevant surface:
+Follow `skills/writing-for-agents/SKILL.md` whenever creating or editing agent-consumed instructions, including `SKILL.md` and this file. Follow `skills/writing-for-agents/SKILL-MECHANICS.md` for skill front matter, invocation policy, and router skills.
 
-- `find skills -maxdepth 2 -name SKILL.md | sort` lists installed skills and confirms layout.
+Use lowercase `name` values and kebab-case directories, such as `skills/research-paper-writing/`. Write short imperative steps with checkable completion criteria. Keep definitions, rules, and caveats for one concept together. Move branch-specific reference material behind explicit pointers whose wording states when to read it.
 
-## Coding Style & Naming Conventions
+Skills that only users should invoke, including aliases and workflow orchestrators, set `disable-model-invocation: true` in front matter.
 
-Write skills in Markdown with YAML front matter. Keep `name` lowercase and directory names in kebab-case, for example `skills/use-x-chat/`. Use short, imperative instructions and keep examples concrete. Preserve ASCII by default unless the skill already requires another language. Shell helpers should be Bash with `set -euo pipefail`. Test scripts should follow `test-*.sh`; JavaScript tests should end in `*.test.js`.
+Shell helpers use Bash with `set -euo pipefail`. Name shell tests `test-*.sh` and JavaScript tests `*.test.js`. Preserve ASCII unless the skill or source material requires another language.
 
-## Testing Guidelines
+## Documentation Sync
 
-When editing a skill, verify both the expected path and adversarial or ambiguous prompts. Prefer focused tests over broad rewrites, and keep outputs deterministic so failures are easy to review.
+After every meaningful change, update the affected source of truth in the same patch:
 
-## Commit & Pull Request Guidelines
+- User-visible skill additions, removals, names, purposes, setup, or usage: update `README.md`.
+- Contributor workflows, architecture, commands, or conventions: update `AGENTS.md`.
+- Changes affecting both audiences: update both files.
 
-Use Conventional Commits such as `docs(skills): clarify trigger wording`. Keep each PR scoped to one problem. Describe the problem, explain alternatives considered, record the environment tested, include evaluation evidence, and confirm human review before submission.
+`CLAUDE.md` is a symlink to `AGENTS.md`; edit only `AGENTS.md`.
+
+## Validation
+
+There is no repository-wide build. Validate the changed skill's relevant surface and finish only when all applicable checks pass:
+
+1. Run `find skills -maxdepth 2 -name SKILL.md | sort` and confirm every intended personal skill entrypoint appears once.
+2. Check edited front matter and every local pointer or referenced path.
+3. Exercise the expected invocation plus adversarial or ambiguous prompts when behavior changed.
+4. Run focused tests for edited scripts; keep outputs deterministic and record the commands used.
+5. Compare top-level personal skill directories with the `README.md` catalog after adding, removing, or renaming a skill.
+
+## Commits and Pull Requests
+
+Use Conventional Commits, for example `docs(skills): clarify trigger wording`. Keep each commit and pull request scoped to one problem. Pull requests describe the problem and alternatives, list the validation environment and evidence, and record human review.

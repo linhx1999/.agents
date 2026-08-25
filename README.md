@@ -1,80 +1,66 @@
-# 技能仓库说明
+# Agent 技能仓库
 
-这个仓库主要用于存储、整理和快速查找个人维护的技能内容，核心目录是 `skills/`。这里不是以功能开发为目标的主项目仓库。
-
-## 目录导航
-
-- `skills/`：主要技能存储区。
-- `skills/.system/`：系统级打包技能。
-- `AGENTS.md`：贡献与协作约定（`CLAUDE.md` 是指向它的符号链接）。
+这是个人维护的 agent 技能集合。每个技能以 `skills/<skill-name>/SKILL.md` 为入口；贡献约定见 [`AGENTS.md`](AGENTS.md)。`skills/.system/` 存放平台打包的系统技能，不属于下方个人技能索引。
 
 ## 技能索引
 
-- `ant-design`：用于 Ant Design、ProComponents 和 Ant Design X 的组件选型与实现决策。
-- `code-review`：用于从固定基点（提交、分支、标签或合并基）按规范与需求双轴并行审查改动。
-- `commit-work`：用于审查改动、拆分提交并生成规范的 Git 提交信息。
-- `csv`：用于通过 Bash 工具分析和转换 CSV 数据。
-- `docx`：用于创建、编辑、分析和批注 `.docx` 文档。
-- `domain-modeling`：用于梳理领域术语、维护上下文文档并记录架构决策。
-- `excel-automation`：用于自动化处理 Excel 工作簿。
-- `figedit-v2`：用于将位图图示重建为高保真可编辑 SVG 和 PowerPoint。
-- `find-skills`：用于查找、筛选和安装可用的 agent skills。
-- `frontend-design`：用于设计和改进具有明确视觉风格的前端界面。
-- `golang-pro`：用于 Go 并发、微服务、性能优化和工程化实现。
-- `grill-me`：`grilling` 的手动触发别名，用于对计划或设计展开追问。
-- `grill-with-docs`：用于在分轮追问计划或设计的同时维护领域文档和架构决策。
-- `grilling`：用于通过分轮追问检验计划、决策或想法。
-- `handoff`：用于把当前对话压缩为可供下一位 agent 接手的交接文档。
-- `implement`：用于依据 spec 或工单实现功能，配合 TDD 与代码审查完成交付。
-- `improve-codebase-architecture`：用于扫描代码库的深模块改进机会并生成可视化报告。
-- `mcp-builder`：用于设计和实现高质量 MCP 服务端。
-- `paddleocr-doc-parsing`：用于解析复杂 PDF 和文档图像的结构、表格及公式。
-- `pdf`：用于提取、生成、拆分、合并和填写 PDF。
-- `playwright-cli`：用于浏览器自动化、网页测试和 Playwright 测试协作。
-- `pptx`：用于处理演示文稿的创建、编辑、解析和拆分合并。
-- `research`：用于基于高可信一手资料开展研究并把结果写入仓库。
-- `research-paper-writing`：用于提升 ML/CV/NLP 类论文的写作质量、结构与审稿友好度。
-- `seaborn`：用于统计图表、探索性分析和出版级可视化。
-- `setup-matt-pocock-skills`：用于初始化工程技能所需的问题追踪、标签和领域文档配置。
-- `skill-creator`：用于创建新 skill 或完善已有 skill。
-- `tdd`：用于测试驱动开发（红-绿循环）、测试编写与集成测试。
-- `template-skill`：用于新技能的占位模板和结构起点。
-- `ui-ux-pro-max`：用于检索 UI/UX 风格、配色、字体、交互与技术栈指南。
-- `use-x-chat`：用于讲解和实现 Ant Design X 的 `useXChat` 用法。
-- `vercel-react-best-practices`：用于 React 和 Next.js 的性能优化与最佳实践对照。
-- `writing-for-agents`：用于编写和改进 skill、`AGENTS.md`、`CLAUDE.md` 等 agent 消费的文档。
-- `x-chat-provider`：用于将自定义流式接口适配为 Ant Design X Chat Provider。
-- `x-request`：用于配置和使用 Ant Design X 的 `XRequest`。
-- `xlsx`：用于创建、修改、分析和重算电子表格文件。
+| 技能 | 用途 |
+| --- | --- |
+| `code-review` | 从固定基点按代码规范与需求实现两个维度并行审查改动。 |
+| `commit-work` | 审查和暂存预期改动、拆分逻辑提交并编写规范提交信息。 |
+| `csv` | 使用 Bash 工具分析和转换 CSV 数据。 |
+| `docx` | 创建、编辑、分析和批注 Word 文档。 |
+| `domain-modeling` | 梳理领域术语，维护上下文文档和架构决策。 |
+| `excel-automation` | 自动化处理 Excel 工作簿。 |
+| `figedit-v2` | 将位图图示重建为高保真可编辑 SVG 和原生 PowerPoint。 |
+| `find-skills` | 查找、筛选和安装可用的 agent 技能。 |
+| `grill-me` | 手动调用 `grilling` 的别名。 |
+| `grill-with-docs` | 在追问计划或设计时同步维护领域文档。 |
+| `grilling` | 通过分轮追问检验计划、决策或想法。 |
+| `handoff` | 把当前对话压缩为可供下一位 agent 接手的交接文档。 |
+| `implement` | 根据规格或工单实施工作，并执行约定的测试与审查流程。 |
+| `mcp-builder` | 设计和实现连接外部 API 或服务的 MCP 服务端。 |
+| `paddleocr-doc-parsing` | 从复杂 PDF 和文档图像中提取版面、表格、公式及阅读顺序。 |
+| `pdf` | 提取、生成、拆分、合并和填写 PDF。 |
+| `playwright-cli` | 自动化浏览器交互、网页测试和 Playwright 测试。 |
+| `pptx` | 创建、编辑、解析、合并和拆分 PowerPoint 演示文稿。 |
+| `research` | 基于高可信一手资料开展研究，并将结论写入仓库。 |
+| `research-paper-writing` | 改进 ML/CV/NLP 论文的结构、论证和审稿呈现。 |
+| `seaborn` | 创建统计分析和出版级数据可视化。 |
+| `setup-matt-pocock-skills` | 首次使用工程技能前配置问题追踪、标签和领域文档。 |
+| `skill-creator` | 创建新技能或完善已有技能。 |
+| `tdd` | 以红—绿循环进行测试驱动开发和集成测试。 |
+| `template-skill` | 新技能的最小占位模板。 |
+| `writing-for-agents` | 编写和改进技能、`AGENTS.md`、`CLAUDE.md` 等供 agent 使用的文档。 |
+| `xlsx` | 创建、修改、分析、可视化和重算电子表格。 |
 
-## skills/ 组织方式
+其中 `grill-me`、`grill-with-docs`、`handoff`、`implement` 和 `setup-matt-pocock-skills` 是仅限用户手动调用的入口。
 
-每个技能通常放在 `skills/<skill-name>/` 下，入口文件为 `SKILL.md`。常见附属目录如下：
+## 目录约定
 
-- `scripts/`：辅助脚本。
-- `references/`：参考资料。
-- `assets/`：模板或静态资源。
+技能可按需包含以下内容：
 
-命名建议保持 `kebab-case`，例如 `skills/use-x-chat/`、`skills/x-request/`。
+```text
+skills/<skill-name>/
+├── SKILL.md     # 规范入口
+├── scripts/     # 辅助脚本
+├── references/  # 按条件加载的参考资料
+├── assets/      # 模板或静态资源
+└── agents/      # agent 集成元数据
+```
 
-仅限用户手动调用的技能（如别名入口、工作流编排）在 front matter 中声明 `disable-model-invocation: true`，例如 `grill-me`、`implement`。
+目录名使用 `kebab-case`。仅限用户手动调用的入口在 `SKILL.md` front matter 中设置 `disable-model-invocation: true`。
 
-## 日常查找入口
+## 查找技能
 
-查看所有技能入口：
+列出所有个人技能入口：
 
 ```bash
 find skills -maxdepth 2 -name SKILL.md | sort
 ```
 
-按名称查找某个技能：
+按名称或文件查找：
 
 ```bash
-rg --files skills | rg 'SKILL\.md|use-x-chat|x-request'
-```
-
-快速浏览仓库前两层目录：
-
-```bash
-find . -maxdepth 2 -type d | sort
+rg --files skills | rg '<skill-name>|SKILL\.md'
 ```
