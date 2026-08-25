@@ -346,6 +346,116 @@
       "skillFolderHash": "acc4f5c01506fe10dad99ca755a9612d67de5467",
       "installedAt": "2026-08-22T07:47:57.174Z",
       "updatedAt": "2026-08-22T07:47:57.174Z"
+    },
+    "to-spec": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/to-spec/SKILL.md",
+      "skillFolderHash": "136b9651747cfccbfbb7c50a6b0dfb757e7547d2",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-08-23T12:56:30.961Z",
+      "updatedAt": "2026-08-23T12:56:30.961Z"
+    },
+    "assistant-ui": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/assistant-ui/skills.git",
+      "skillPath": "assistant-ui/skills/assistant-ui/SKILL.md",
+      "skillFolderHash": "f7b86689050415e52d18d2458e42ef375d26f5fc",
+      "pluginName": "assistant-ui",
+      "installedAt": "2026-08-23T13:32:51.426Z",
+      "updatedAt": "2026-08-23T13:32:51.426Z"
+    },
+    "copilots": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/assistant-ui/skills.git",
+      "skillPath": "assistant-ui/skills/copilots/SKILL.md",
+      "skillFolderHash": "23af2c683c9b6b39440c3e8a133ca62766431bb1",
+      "pluginName": "assistant-ui",
+      "installedAt": "2026-08-23T13:32:51.428Z",
+      "updatedAt": "2026-08-23T13:32:51.428Z"
+    },
+    "markdown": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/assistant-ui/skills.git",
+      "skillPath": "assistant-ui/skills/markdown/SKILL.md",
+      "skillFolderHash": "634906f592e55e09badd6558001ac5bdbda3786b",
+      "pluginName": "assistant-ui",
+      "installedAt": "2026-08-23T13:32:51.435Z",
+      "updatedAt": "2026-08-23T13:32:51.435Z"
+    },
+    "observability": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/assistant-ui/skills.git",
+      "skillPath": "assistant-ui/skills/observability/SKILL.md",
+      "skillFolderHash": "92f529cc51080b8610ac3f2f1e0e949f009e0a77",
+      "pluginName": "assistant-ui",
+      "installedAt": "2026-08-23T13:32:51.438Z",
+      "updatedAt": "2026-08-23T13:32:51.438Z"
+    },
+    "primitives": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/assistant-ui/skills.git",
+      "skillPath": "assistant-ui/skills/primitives/SKILL.md",
+      "skillFolderHash": "0d308a2d595e35f2554c626eeb309fb2d0f43dcf",
+      "pluginName": "assistant-ui",
+      "installedAt": "2026-08-23T13:32:51.438Z",
+      "updatedAt": "2026-08-23T13:32:51.438Z"
+    },
+    "runtime": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/assistant-ui/skills.git",
+      "skillPath": "assistant-ui/skills/runtime/SKILL.md",
+      "skillFolderHash": "b35892c958f3497d773378d8b68854c6b8a4294d",
+      "pluginName": "assistant-ui",
+      "installedAt": "2026-08-23T13:32:51.439Z",
+      "updatedAt": "2026-08-23T13:32:51.439Z"
+    },
+    "setup": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/assistant-ui/skills.git",
+      "skillPath": "assistant-ui/skills/setup/SKILL.md",
+      "skillFolderHash": "4a28900f6dd91ea81b62d37a5976e6de64ecf198",
+      "pluginName": "assistant-ui",
+      "installedAt": "2026-08-23T13:32:51.440Z",
+      "updatedAt": "2026-08-23T13:32:51.440Z"
+    },
+    "streaming": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/assistant-ui/skills.git",
+      "skillPath": "assistant-ui/skills/streaming/SKILL.md",
+      "skillFolderHash": "7f0c0247f5426043ebe37ab0ed4aefd94a12a653",
+      "pluginName": "assistant-ui",
+      "installedAt": "2026-08-23T13:32:51.440Z",
+      "updatedAt": "2026-08-23T13:32:51.440Z"
+    },
+    "thread-list": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/assistant-ui/skills.git",
+      "skillPath": "assistant-ui/skills/thread-list/SKILL.md",
+      "skillFolderHash": "4f28cca8130c55e97eb529349c0719b2e9a2103c",
+      "pluginName": "assistant-ui",
+      "installedAt": "2026-08-23T13:32:51.441Z",
+      "updatedAt": "2026-08-23T13:32:51.441Z"
+    },
+    "tools": {
+      "source": "assistant-ui/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/assistant-ui/skills.git",
+      "skillPath": "assistant-ui/skills/tools/SKILL.md",
+      "skillFolderHash": "73e5602318c4244e1aa65d5ad3e94bf524a80fe5",
+      "pluginName": "assistant-ui",
+      "installedAt": "2026-08-23T13:32:51.441Z",
+      "updatedAt": "2026-08-23T13:32:51.441Z"
     }
   },
   "dismissed": {
