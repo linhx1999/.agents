@@ -123,10 +123,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/anthropics/skills.git",
       "skillPath": "skills/frontend-design/SKILL.md",
-      "skillFolderHash": "0d5b74a14bdf3ebcd64f352d06376a2ef05ed296",
-      "pluginName": "example-skills",
+      "skillFolderHash": "d79e2a5bb4df4a386c2adcdd9ab8709bba28c3f6",
       "installedAt": "2026-07-25T07:14:18.582Z",
-      "updatedAt": "2026-07-25T07:14:18.582Z"
+      "updatedAt": "2026-09-08T14:47:42.304Z"
     },
     "commit-work": {
       "source": "softaworks/agent-toolkit",
@@ -142,9 +141,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
       "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
-      "skillFolderHash": "5cca2c41be4f7a85c3d8ff95e9bd42de9486745e",
+      "skillFolderHash": "f0415e89eeadda8933a49a3f432acae52fa542aa",
       "installedAt": "2026-07-25T07:29:58.916Z",
-      "updatedAt": "2026-08-19T15:10:34.263Z"
+      "updatedAt": "2026-09-08T14:47:45.617Z"
     },
     "grilling": {
       "source": "mattpocock/skills",
@@ -309,7 +308,7 @@
       "skillFolderHash": "2ab11f2f51f3c29771edb5d4258d807a49462491",
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-08-19T15:04:29.012Z",
-      "updatedAt": "2026-08-19T15:04:29.012Z"
+      "updatedAt": "2026-09-04T10:45:01.557Z"
     },
     "loop-me": {
       "source": "mattpocock/skills",
@@ -325,9 +324,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/microsoft/playwright-cli.git",
       "skillPath": "skills/playwright-cli/SKILL.md",
-      "skillFolderHash": "ef9a12fdadfb2ad4b67d512a10e840979f162c3a",
+      "skillFolderHash": "fe74b7fb02fe5d0697d1e1359cb44e1f48d1fc54",
       "installedAt": "2026-08-22T02:21:56.081Z",
-      "updatedAt": "2026-08-22T02:21:56.081Z"
+      "updatedAt": "2026-09-08T14:47:47.768Z"
     },
     "playwright-best-practices": {
       "source": "currents-dev/playwright-best-practices-skill",
@@ -343,9 +342,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/giszzt/figedit.git",
       "skillPath": "SKILL.md",
-      "skillFolderHash": "acc4f5c01506fe10dad99ca755a9612d67de5467",
+      "skillFolderHash": "1da2001202fca514638a2ca2f0e72c74704bef979091d9e745971bdbe32d6f21",
       "installedAt": "2026-08-22T07:47:57.174Z",
-      "updatedAt": "2026-08-22T07:47:57.174Z"
+      "updatedAt": "2026-09-08T14:52:34.930Z"
     },
     "to-spec": {
       "source": "mattpocock/skills",
@@ -362,100 +361,99 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/assistant-ui/skills.git",
       "skillPath": "assistant-ui/skills/assistant-ui/SKILL.md",
-      "skillFolderHash": "f7b86689050415e52d18d2458e42ef375d26f5fc",
-      "pluginName": "assistant-ui",
+      "skillFolderHash": "4609b6a2c04097251a1fa79ebbbdf582f1b8b52576dad8123a37979068c0613d",
       "installedAt": "2026-08-23T13:32:51.426Z",
-      "updatedAt": "2026-08-23T13:32:51.426Z"
+      "updatedAt": "2026-09-08T14:52:37.770Z"
     },
     "copilots": {
       "source": "assistant-ui/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/assistant-ui/skills.git",
       "skillPath": "assistant-ui/skills/copilots/SKILL.md",
-      "skillFolderHash": "23af2c683c9b6b39440c3e8a133ca62766431bb1",
-      "pluginName": "assistant-ui",
+      "skillFolderHash": "5b93c45f9a78cc804bd728da979fef80ee671e306aff157bc5c4a6f94c4f5638",
       "installedAt": "2026-08-23T13:32:51.428Z",
-      "updatedAt": "2026-08-23T13:32:51.428Z"
+      "updatedAt": "2026-09-08T14:52:40.387Z"
     },
     "markdown": {
       "source": "assistant-ui/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/assistant-ui/skills.git",
       "skillPath": "assistant-ui/skills/markdown/SKILL.md",
-      "skillFolderHash": "634906f592e55e09badd6558001ac5bdbda3786b",
-      "pluginName": "assistant-ui",
+      "skillFolderHash": "e9845ebbafc2d667c8824eb8ffeeabe4a506b822",
       "installedAt": "2026-08-23T13:32:51.435Z",
-      "updatedAt": "2026-08-23T13:32:51.435Z"
+      "updatedAt": "2026-09-08T14:52:44.973Z"
     },
     "observability": {
       "source": "assistant-ui/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/assistant-ui/skills.git",
       "skillPath": "assistant-ui/skills/observability/SKILL.md",
-      "skillFolderHash": "92f529cc51080b8610ac3f2f1e0e949f009e0a77",
-      "pluginName": "assistant-ui",
+      "skillFolderHash": "b06d32ef458dfa81e03e10d34f1e94d4c9d765b31338549b2dbc7e6ae9bc995f",
       "installedAt": "2026-08-23T13:32:51.438Z",
-      "updatedAt": "2026-08-23T13:32:51.438Z"
+      "updatedAt": "2026-09-08T14:52:48.317Z"
     },
     "primitives": {
       "source": "assistant-ui/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/assistant-ui/skills.git",
       "skillPath": "assistant-ui/skills/primitives/SKILL.md",
-      "skillFolderHash": "0d308a2d595e35f2554c626eeb309fb2d0f43dcf",
-      "pluginName": "assistant-ui",
+      "skillFolderHash": "5b3956e155e602629ac999e9753d55ea95df30da24f94cb42340abee08742b3a",
       "installedAt": "2026-08-23T13:32:51.438Z",
-      "updatedAt": "2026-08-23T13:32:51.438Z"
+      "updatedAt": "2026-09-08T14:52:52.274Z"
     },
     "runtime": {
       "source": "assistant-ui/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/assistant-ui/skills.git",
       "skillPath": "assistant-ui/skills/runtime/SKILL.md",
-      "skillFolderHash": "b35892c958f3497d773378d8b68854c6b8a4294d",
-      "pluginName": "assistant-ui",
+      "skillFolderHash": "3e42f87878be4dbe573cd8cc9282cccad1849515f4dd7ed750767206d7e74b9c",
       "installedAt": "2026-08-23T13:32:51.439Z",
-      "updatedAt": "2026-08-23T13:32:51.439Z"
+      "updatedAt": "2026-09-08T14:52:56.437Z"
     },
     "setup": {
       "source": "assistant-ui/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/assistant-ui/skills.git",
       "skillPath": "assistant-ui/skills/setup/SKILL.md",
-      "skillFolderHash": "4a28900f6dd91ea81b62d37a5976e6de64ecf198",
-      "pluginName": "assistant-ui",
+      "skillFolderHash": "540f1d7c789cab0c96c7d4c348cab42b968a8196",
       "installedAt": "2026-08-23T13:32:51.440Z",
-      "updatedAt": "2026-08-23T13:32:51.440Z"
+      "updatedAt": "2026-09-08T14:53:34.661Z"
     },
     "streaming": {
       "source": "assistant-ui/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/assistant-ui/skills.git",
       "skillPath": "assistant-ui/skills/streaming/SKILL.md",
-      "skillFolderHash": "7f0c0247f5426043ebe37ab0ed4aefd94a12a653",
-      "pluginName": "assistant-ui",
+      "skillFolderHash": "c34e5324a7d238cc8311270bdbc26b88342c1334",
       "installedAt": "2026-08-23T13:32:51.440Z",
-      "updatedAt": "2026-08-23T13:32:51.440Z"
+      "updatedAt": "2026-09-08T14:53:49.364Z"
     },
     "thread-list": {
       "source": "assistant-ui/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/assistant-ui/skills.git",
       "skillPath": "assistant-ui/skills/thread-list/SKILL.md",
-      "skillFolderHash": "4f28cca8130c55e97eb529349c0719b2e9a2103c",
-      "pluginName": "assistant-ui",
+      "skillFolderHash": "3cc80351cf94f90b0989f2202b893223bb7d0427",
       "installedAt": "2026-08-23T13:32:51.441Z",
-      "updatedAt": "2026-08-23T13:32:51.441Z"
+      "updatedAt": "2026-09-08T14:53:55.807Z"
     },
     "tools": {
       "source": "assistant-ui/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/assistant-ui/skills.git",
       "skillPath": "assistant-ui/skills/tools/SKILL.md",
-      "skillFolderHash": "73e5602318c4244e1aa65d5ad3e94bf524a80fe5",
-      "pluginName": "assistant-ui",
+      "skillFolderHash": "6d41f0adb0f6affcf997275bb18ec10027d7eeb44255c24a34996a813b902e2c",
       "installedAt": "2026-08-23T13:32:51.441Z",
-      "updatedAt": "2026-08-23T13:32:51.441Z"
+      "updatedAt": "2026-09-08T14:54:01.756Z"
+    },
+    "ppt-master": {
+      "source": "hugohe3/ppt-master",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hugohe3/ppt-master.git",
+      "skillPath": "skills/ppt-master/SKILL.md",
+      "skillFolderHash": "45b07fdc91c876b6ae142a782988b90c18f5d8530737cf87ec63716948b714ad",
+      "installedAt": "2026-08-31T16:20:04.620Z",
+      "updatedAt": "2026-09-08T14:57:00.015Z"
     }
   },
   "dismissed": {
