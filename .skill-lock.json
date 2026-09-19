@@ -109,25 +109,6 @@
       "installedAt": "2026-08-01T09:28:48.308Z",
       "updatedAt": "2026-08-01T09:28:48.308Z"
     },
-    "research": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/engineering/research/SKILL.md",
-      "skillFolderHash": "0a6796c5667e95ed2301ba7381c123b4acb2ae1a",
-      "installedAt": "2026-08-11T01:00:08.301Z",
-      "updatedAt": "2026-08-19T15:10:38.548Z"
-    },
-    "grill-with-docs": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
-      "skillFolderHash": "eedaf2562c83155115e9c649fa3ecaac2e10e81d",
-      "pluginName": "mattpocock-skills",
-      "installedAt": "2026-08-11T01:00:08.305Z",
-      "updatedAt": "2026-08-19T15:04:29.006Z"
-    },
     "handoff": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -147,16 +128,6 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-08-11T01:00:08.307Z",
       "updatedAt": "2026-08-19T15:04:29.009Z"
-    },
-    "setup-matt-pocock-skills": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
-      "skillFolderHash": "ec07f82df54064d01aa1648670e81da41e2cbdc2",
-      "pluginName": "mattpocock-skills",
-      "installedAt": "2026-08-11T01:00:08.308Z",
-      "updatedAt": "2026-08-19T15:04:29.003Z"
     },
     "domain-modeling": {
       "source": "mattpocock/skills",
@@ -224,105 +195,6 @@
       "skillFolderHash": "a1c056c7d2518ba8c6ba64a328242e58eebf7d03",
       "installedAt": "2026-08-31T16:20:04.620Z",
       "updatedAt": "2026-09-13T03:32:30.741Z"
-    },
-    "draft-openspec-docs": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": ".agents/skills/draft-openspec-docs/SKILL.md",
-      "skillFolderHash": "150ac97216b16f27345ff2aeac13fed680dddece",
-      "installedAt": "2026-09-13T03:11:11.846Z",
-      "updatedAt": "2026-09-13T03:11:11.846Z"
-    },
-    "openspec-apply-change": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": "skills/openspec-apply-change/SKILL.md",
-      "skillFolderHash": "12fc4ed61fc486a8a85bc96d7d6c9efd9fecbdbd",
-      "installedAt": "2026-09-13T03:11:11.847Z",
-      "updatedAt": "2026-09-13T03:11:11.847Z"
-    },
-    "openspec-archive-change": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": "skills/openspec-archive-change/SKILL.md",
-      "skillFolderHash": "8b2c9578cca3f76b5dcc17088b676d96f4343aa3",
-      "installedAt": "2026-09-13T03:11:11.849Z",
-      "updatedAt": "2026-09-13T03:11:11.849Z"
-    },
-    "openspec-explore": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": "skills/openspec-explore/SKILL.md",
-      "skillFolderHash": "d4579ec10b7c904634b59676baa05aae7390bda9",
-      "installedAt": "2026-09-13T03:11:11.851Z",
-      "updatedAt": "2026-09-13T03:11:11.851Z"
-    },
-    "openspec-propose": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": "skills/openspec-propose/SKILL.md",
-      "skillFolderHash": "8c418c14aee82ec7495de6d2b6dc9b5ffd95529b",
-      "installedAt": "2026-09-13T03:11:11.855Z",
-      "updatedAt": "2026-09-13T03:11:11.855Z"
-    },
-    "openspec-sync-specs": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": "skills/openspec-sync-specs/SKILL.md",
-      "skillFolderHash": "04985999acb91f7a8bb9db4a3f81d1040ee04ff0",
-      "installedAt": "2026-09-13T03:11:11.855Z",
-      "updatedAt": "2026-09-13T03:11:11.855Z"
-    },
-    "openspec-update-change": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": "skills/openspec-update-change/SKILL.md",
-      "skillFolderHash": "00bb6186890d8aeb5030037aefad5cad9f991183",
-      "installedAt": "2026-09-13T03:11:11.856Z",
-      "updatedAt": "2026-09-13T03:11:11.856Z"
-    },
-    "openspec-verify-change": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": "skills/openspec-verify-change/SKILL.md",
-      "skillFolderHash": "00f5f1a0141d55a62b91c94b3eebb62d504c5bfc",
-      "installedAt": "2026-09-13T03:11:11.857Z",
-      "updatedAt": "2026-09-13T03:11:11.857Z"
-    },
-    "release-openspec": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": ".agents/skills/release-openspec/SKILL.md",
-      "skillFolderHash": "792a3c2f5f973ff4ad76a2e8d8ee59e312f6ceca",
-      "installedAt": "2026-09-13T03:11:11.858Z",
-      "updatedAt": "2026-09-13T03:11:11.858Z"
-    },
-    "verify-openspec-docs": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": ".agents/skills/verify-openspec-docs/SKILL.md",
-      "skillFolderHash": "2edc02f909a37a3030355291668009ae2bc7e7ec",
-      "installedAt": "2026-09-13T03:11:11.858Z",
-      "updatedAt": "2026-09-13T03:11:11.858Z"
-    },
-    "write-openspec-docs": {
-      "source": "Fission-AI/OpenSpec",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/Fission-AI/OpenSpec.git",
-      "skillPath": ".agents/skills/write-openspec-docs/SKILL.md",
-      "skillFolderHash": "3517cb35dd4cb65ab1dbf6dfaf8116a957c1f416",
-      "installedAt": "2026-09-13T03:11:11.859Z",
-      "updatedAt": "2026-09-13T03:11:11.859Z"
     }
   },
   "dismissed": {
