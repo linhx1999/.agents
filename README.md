@@ -24,6 +24,7 @@
 | `ppt-master` | AI 驱动的工作流，用于生成、重建、模板化和增强 PPTX 演示文稿。 |
 | `pptx` | 创建、编辑、解析、合并和拆分 PowerPoint 演示文稿。 |
 | `research-paper-writing` | 改进 ML/CV/NLP 论文的结构、论证和审稿呈现。 |
+| `research-writing` | 起草、润色和检查中英文学术论文、学位论文、开题报告及投稿信，核查论断与证据一致性及 LaTeX/图表规范。 |
 | `seaborn` | 创建统计分析和出版级数据可视化。 |
 | `skill-creator` | 创建新技能或完善已有技能。 |
 | `tdd` | 以红—绿循环进行测试驱动开发和集成测试。 |
