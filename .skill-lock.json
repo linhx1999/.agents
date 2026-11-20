@@ -204,6 +204,16 @@
       "skillFolderHash": "f895ef59e78bbc6dc446b3bf098c0b47aa4e611f",
       "installedAt": "2026-11-12T16:14:02.892Z",
       "updatedAt": "2026-11-12T16:14:02.892Z"
+    },
+    "anti-defensive-writing": {
+      "source": "Kiterlin/anti-defensive-writing",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Kiterlin/anti-defensive-writing.git",
+      "commit": "f516147d017a3fe43ae99192cb89d8261b0c8679",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "f516147d017a3fe43ae99192cb89d8261b0c8679",
+      "installedAt": "2026-11-20T00:17:49.870Z",
+      "updatedAt": "2026-11-20T00:17:49.870Z"
     }
   },
   "dismissed": {
